@@ -21,9 +21,9 @@
 
 如下图所示；
 
-![多重加载](\img\多重加载.png)
+![多重加载](./img/多重加载.png)
 
-![多重加载结果](.\img\多重加载结果.png)
+![多重加载结果](./img/多重加载结果.png)
 
 
 
@@ -56,15 +56,15 @@
 
   - intnet2下的kali靶机访问攻击者主机
 
-    ![靶机3ping攻击者](.\img\靶机3ping攻击者.png)
+    ![靶机3ping攻击者](./img/靶机3ping攻击者.png)
 
   - intnet2下的xp靶机访问攻击者主机
 
-    ![xp2ping攻击者](.\img\xp2ping攻击者.png)
+    ![xp2ping攻击者](./img/xp2ping攻击者.png)
 
   - intnet1下的xp靶机访问攻击者主机
 
-    ![xp1ping攻击者](.\img\xp1ping攻击者.png)
+    ![xp1ping攻击者](./img/xp1ping攻击者.png)
 
   
 
@@ -72,27 +72,27 @@
 
   - 攻击者ping  intnet1下的xp靶机
 
-    ![攻击者pingxp1](.\img\攻击者pingxp1.png)
+    ![攻击者pingxp1](./img/攻击者pingxp1.png)
 
   - 攻击者ping  intnet2下的xp靶机
 
-    ![攻击者pingxp2](.\img\攻击者pingxp2.png)
+    ![攻击者pingxp2](./img/攻击者pingxp2.png)
 
   - 攻击者ping  intnet2下的kali靶机
 
-    ![攻击者ping靶机](.\img\攻击者ping靶机.png)
+    ![攻击者ping靶机](./img/攻击者ping靶机.png)
 
 - [x] 网关可以直接访问攻击者主机和靶机
 
   - 网关访问攻击者
 
-    ![网关ping攻击者](.\img\网关ping攻击者.png)
+    ![网关ping攻击者](./img/网关ping攻击者.png)
 
   - 网关访问靶机
 
-    ![网关ping靶机1](.\img\网关ping靶机1.png)
+    ![网关ping靶机1](./img/网关ping靶机1.png)
 
-    ![网关ping靶机2](.\img\网关ping靶机2.png)
+    ![网关ping靶机2](./img/网关ping靶机2.png)
 
     
 
@@ -102,29 +102,29 @@
 
   - intnet2下靶机的对外流量经过网关：
 
-    ![流量监控2](.\img\流量监控2.png)
+    ![流量监控2](./img/流量监控2.png)
 
   - intnet1下靶机的对外流量经过网关：
 
-    ![监听1](.\img\监听1.png)
+    ![监听1](./img/监听1.png)
 
 - [x] 所有节点均可以访问互联网
 
 - [ ] - intnet1下的xp靶机ping互联网
 
-    ![靶机1ping互联网](.\img\靶机1ping互联网.png)
+    ![靶机1ping互联网](./img/靶机1ping互联网.png)
 
   - intnet2下的xp靶机ping互联网
 
-    ![靶机2ping互联网](.\img\靶机2ping互联网.png)
+    ![靶机2ping互联网](./img/靶机2ping互联网.png)
 
   - intnet2下的kali靶机ping互联网
 
-    ![靶机3ping互联网](.\img\靶机3ping互联网.png)
+    ![靶机3ping互联网](./img/靶机3ping互联网.png)
 
   - 攻击者ping互联网
 
-    ![攻击者ping互联网](.\img\攻击者ping互联网.png)
+    ![攻击者ping互联网](./img/攻击者ping互联网.png)
 
 
 
@@ -132,33 +132,33 @@
 
 ### 配置网关（Debian10）
 
-![gateway](.\img\gateway.png)
+![gateway](./img/gateway.png)
 
 详情如下：
 
-- enp0s3（）
+- enp0s3（与攻击者主机相连接）
 
-![netcard1](.\img\netcard1.png)
+![netcard1](./img/netcard1.png)
 
 - enp0s8(便于使用ssh远程连接)
 
-![netcard2](.\img\netcard2.png)
+![netcard2](./img/netcard2.png)
 
 - enp0s9
 
-![netcard1](.\img\netcard3.png)
+![netcard1](./img/netcard3.png)
 
 - enp0s10
 
-![netcard1](.\img\netcard4.png)
+![netcard1](./img/netcard4.png)
 
 其中host-only的设置如下：
 
-![netcard1](.\img\hostonly-conf.png)
+![netcard1](./img/hostonly-conf.png)
 
 #### 测试SSH连接
 
-![ssh](.\img\ssh.png)
+![ssh](./img/ssh.png)
 
 #### 更改网关网络配置文件
 

@@ -29,6 +29,8 @@
 
 ### 搭建虚拟机的网络拓扑
 
+​			![vb-exp-layout](./img/vb-exp-layout.png)
+
 
 
 - |              网关端口               |      IP      |

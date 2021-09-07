@@ -110,21 +110,21 @@
 
 - [x] 所有节点均可以访问互联网
 
-- [ ] - intnet1下的xp靶机ping互联网
+    - intnet1下的xp靶机ping互联网
 
-    ![靶机1ping互联网](./img/靶机1ping互联网.png)
+      ![靶机1ping互联网](./img/靶机1ping互联网.png)
 
-  - intnet2下的xp靶机ping互联网
+    - intnet2下的xp靶机ping互联网
 
-    ![靶机2ping互联网](./img/靶机2ping互联网.png)
+      ![靶机2ping互联网](./img/靶机2ping互联网.png)
 
-  - intnet2下的kali靶机ping互联网
+    - intnet2下的kali靶机ping互联网
 
-    ![靶机3ping互联网](./img/靶机3ping互联网.png)
+      ![靶机3ping互联网](./img/靶机3ping互联网.png)
 
-  - 攻击者ping互联网
+    - 攻击者ping互联网
 
-    ![攻击者ping互联网](./img/攻击者ping互联网.png)
+      ![攻击者ping互联网](./img/攻击者ping互联网.png)
 
 
 

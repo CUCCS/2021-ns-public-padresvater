@@ -211,7 +211,7 @@ ACK = 0x10
 
 - 虚拟机抓包情况：
 
-  ![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\stealth_open.png)
+  ![](./img/stealth_open.png)
 
   和课本一致。
 
@@ -257,7 +257,7 @@ ACK = 0x10
 
 - 虚拟机抓包情况：
 
-  ![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\stealth_filter.png)
+  ![](./img/stealth_filter.png)
 
   和书本所述一致。
 
@@ -265,7 +265,7 @@ ACK = 0x10
 
 #### 课本提供原理
 
-![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\tcp-xmas-scan.png)
+![](./img/tcp-xmas-scan.png)
 
 #### 脚本代码
 
@@ -315,7 +315,7 @@ ACK = 0x10
 
 - 虚拟机抓包情况：
 
-  ![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\xmas_closed.png)
+  ![](./img/xmas_closed.png)
 
   
 
@@ -371,7 +371,7 @@ ACK = 0x10
 
 - 虚拟机抓包情况：
 
-  ![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\fin_open.png)
+  ![](./img/fin_open.png)
 
   和课本一致。
 
@@ -394,7 +394,7 @@ ACK = 0x10
 
 - 虚拟机抓包情况：
 
-  ![](C:\Users\16492\OneDrive\桌面\2021-ns-public-padresvater\chap0x05\img\fin_closed.png)
+  ![](./img/fin_closed.png)
 
   和课本一致。
 
